@@ -1,0 +1,104 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #2c2c2c;
+    color: #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #1f1f1f;
+    color: #e0e0e0; /* Different color for the title */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #bfbfbf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px auto;
+    background: #3d3d3d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffffff; /* Different color for h2 */
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+main h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #cccccc; /* Different color for h3 */
+}
+
+main p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+main ul {
+    margin-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #1f1f1f;
+    color: #bfbfbf;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+}
